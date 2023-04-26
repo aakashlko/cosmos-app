@@ -75,6 +75,7 @@ const Home: NextPage = () => {
     } catch (error) {
       console.log("buildingNoUserHomeFeed error", error);
     }
+    setLoading(false);
   };
 
   const getUserPostVotes = async () => {
