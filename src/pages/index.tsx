@@ -121,7 +121,7 @@ const Home: NextPage = () => {
   return (
     <PageContent>
       <>
-        <CreatePostLink />
+        {/* <CreatePostLink /> */}
         {loading ? (
           <PostLoader />
         ) : (
